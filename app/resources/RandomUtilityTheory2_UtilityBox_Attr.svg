@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="410px"
+	 height="410px" viewBox="0 0 410 410" enable-background="new 0 0 410 410" xml:space="preserve">
+<g id="Backgrounds">
+</g>
+<g id="Shapes">
+	<g>
+		<rect x="102.59961" y="101.92871" stroke="#969696" stroke-miterlimit="10" width="289.1875" height="289.18945"/>
+		<polygon stroke="#969696" stroke-miterlimit="10" points="18.21289,51.57129 101.88086,101.92969 101.88086,391.11816 
+			18.21289,340.75977 		"/>
+		<polygon stroke="#969696" stroke-miterlimit="10" points="18.21289,51.57129 101.07031,102.02051 390.25879,102.02051 
+			307.40039,51.57129 		"/>
+		<rect x="101.88086" y="157.71094" fill="none" width="287.18945" height="233.40723"/>
+		<text transform="matrix(1 0 0 1 118.83984 200.66992)"><tspan x="0" y="0" fill="#D8D8D8" stroke="#434343" stroke-miterlimit="10" font-family="'Arial-BoldMT'" font-size="60">Option A</tspan><tspan x="17.24121" y="57.60059" fill="#D8D8D8" stroke="#434343" stroke-miterlimit="10" font-family="'ArialMT'" font-size="48">Attribute 1</tspan><tspan x="17.24121" y="115.2002" fill="#D8D8D8" stroke="#434343" stroke-miterlimit="10" font-family="'ArialMT'" font-size="48">Attribute 2</tspan><tspan x="-13.41504" y="172.80078" fill="#D8D8D8" stroke="#434343" stroke-miterlimit="10" font-family="'ArialMT'" font-size="48">... Attribute N</tspan></text>
+	</g>
+</g>
+<g id="Lines">
+</g>
+<g id="Words">
+</g>
+<g id="Layer_4">
+</g>
+</svg>

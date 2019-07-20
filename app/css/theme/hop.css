@@ -1,0 +1,426 @@
+/**
+ * Johns Hopkins theme for reveal.js.
+ *
+ * By Winter Maxwell Thayer, winterthayer.wordpress.com/publications/
+ *      adapted from Hakim El Hattab, http://hakim.se
+ */
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #222; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #191919;
+  background-color: #191919; }
+  /*background-image: url("university.shield.large.blue.eps"); }*/
+
+
+.reveal {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+  color: #fff; }
+
+::selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none; }
+
+.reveal .slides section,
+.reveal .slides section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 1.8em;
+  text-transform: capitalize;; }
+
+.reveal h2 {
+  position: absolute;;
+  top: 16%;
+  left: 0;
+  right: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: left; }
+
+.reveal h3 {
+  font-size: 1.3em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h5 {
+  text-align: left;
+  text-indent: 1em;
+}
+
+
+.reveal h6 {
+  position: absolute;
+  top: 96%;
+  font-size: 0.25em;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+.reveal sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #42affa;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #8dcffc;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #068de9; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #42affa;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: #CF4520; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #42affa; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+  .backgrounds {
+    background-color: #191919; } }
+
+/*********************************************
+ * My additions
+ * BOXES
+ *********************************************/
+ /* .reveal div:nth-of-type(1) {
+   color: currentColor
+ } */
+ .reveal .box {
+   /* display: inline-block; */
+   position: relative;
+   /* float: right; */
+   /* display: -webkit-flex; */
+   border: 3px solid #002D72;
+   left: 6em;
+   width: 10em;
+   height: 1.3em;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   /* right: 66.7%; */
+   /* width: 33%; */
+   /* padding-left: 33% */
+   /* margin-left: auto; */
+   /* margin-right: auto; */
+   /* padding: 33%; */
+   /* margin: .5em 1em .5em 1em; */
+   /* padding: .5em 1em .5em 1em; */
+ }
+ /*********************************************
+  * HEADER AND FOOTER
+  *********************************************/
+ .head {
+   /* position: absolute; */
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   height: 13%;
+   width: 100%;
+   background: #002D72;
+ }
+
+ .foot {
+   float: left;
+   bottom: 0;
+   position: absolute;
+   height: 2%;
+   width: 100%;
+   background: #002D72;
+ }
+ /*********************************************
+  * SUNDRY
+  *********************************************/
+  div.inSlide {
+    position: absolute;
+    top: 25%;
+  }
+
+  .logo-right {
+    margin-left: 92.5%;
+  }
+
+
+
+  .arrow-lessMore {
+    /* background-size: 456px 56px; */
+    /* color: currentColor; */
+    /* width: 56px; */
+    /* height: 456px; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* height: 100px; */
+    /* width: 100%; */
+
+  }
+
+  /* .reveal object{
+  width: 100%;
+} */
+
+  .reveal svg {
+    fill: currentColor;
+    stroke: currentColor;
+  }
+
+  .arrow-svg-container {
+    position: relative;
+    /* float: left; */
+    /* top: 25%; */
+    height:0;
+    width: 100%;
+    padding: 0;
+    padding-bottom: calc(50% * 4 / 5);
+    /* over-ride this inline for aspect ratio other than square */
+  }
+
+  .arrow-lessMore {
+    margin-top: 10%;
+  }
+
+  .arrow-left {
+    left: -30%;
+  }
+
+  .arrow-right {
+    left: 30%;
+  }
+
+  .scaling-svg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top:0;
+}
+
+  /*
+  svg {
+    color: currentColor;
+  } */
+  /* .middle{ */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* border: 3px solid green; */
+    /* padding: 10px;  */
+  /* } */

@@ -1,0 +1,9 @@
+<svg id="LessMoreArrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 570">
+<g id="arrow">
+		<text transform="matrix(-6.123234e-17 -0.98639 1 -6.039866e-17 36.41211 171.58691)" fill="#8B2A2C" stroke="#000000" stroke-width="0.5" font-family="'ArialMT'" font-size="36">More</text>
+		<text transform="matrix(-6.123234e-17 -0.98639 1 -6.039866e-17 36.30078 491.43848)" fill="#6FACDE" stroke="#000000" stroke-width="0.5" font-family="'ArialMT'" font-size="36">Less</text>
+	<line id="line" fill="none" stroke="#000000" stroke-width="5" x1="51.59619" y1="555.33594" x2="51.59619" y2="22.65918"/>
+	<polygon id="upTriangle" points="51.72119,5 38.22217,28.24756 65.00049,27.97607"/>
+	<polygon id="downTriangle" points="51.72119,565 65.00049,542.02441 38.22217,541.75293"/>
+</g>
+</svg>
