@@ -352,31 +352,13 @@ body {
   *********************************************/
   div.inSlide {
     position: absolute;
+    /* display: flex; */
     top: 25%;
   }
 
   .logo-right {
     margin-left: 92.5%;
   }
-
-
-
-  .arrow-lessMore {
-    /* background-size: 456px 56px; */
-    /* color: currentColor; */
-    /* width: 56px; */
-    /* height: 456px; */
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
-    /* height: 100px; */
-    /* width: 100%; */
-
-  }
-
-  /* .reveal object{
-  width: 100%;
-} */
 
   .reveal svg {
     fill: currentColor;
@@ -385,8 +367,12 @@ body {
 
   .arrow-svg-container {
     position: relative;
+    /* display: inline; */
+    /* display: initial; */
+    /* position: absolute; */
     /* float: left; */
     /* top: 25%; */
+
     height:0;
     width: 100%;
     padding: 0;
@@ -396,6 +382,7 @@ body {
 
   .arrow-lessMore {
     margin-top: 10%;
+    /* top: 35%; */
   }
 
   .arrow-left {
