@@ -366,7 +366,7 @@ body {
   }
 
   .arrow-svg-container {
-    position: relative;
+    position: absolute;
     /* display: inline; */
     /* display: initial; */
     /* position: absolute; */
@@ -381,7 +381,7 @@ body {
   }
 
   .arrow-lessMore {
-    margin-top: 10%;
+    margin-top: 5%;
     /* top: 35%; */
   }
 
@@ -391,6 +391,7 @@ body {
 
   .arrow-right {
     left: 30%;
+    transform: rotate(180deg);
   }
 
   .scaling-svg {
@@ -399,6 +400,13 @@ body {
   width: 100%;
   left: 0;
   top:0;
+}
+
+.par-left {
+  text-align: left;
+  font-size: .67em;
+  /* position: relative; */
+  /* display: inline-block; */
 }
 
   /*
