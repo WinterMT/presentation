@@ -165,9 +165,19 @@ Winter Maxwell Thayer
 		console.log(tn);
 		console.log(tn[2].className);
 		n = document.getElementsByClassName("present");
+		temp = document.querySelectorAll('section');
+		tempItems = temp.childNodes;
+		console.log("temp");
+		console.log(temp);
+		console.log(temp[0]);
+		console.log(tempItems);
+		console.log(tempItems.keys());
 		console.log(n);
+		console.log(n.length);
+		console.log(n.childNodes);
+		console.log(n.namedItem("title"));
 		console.log(document.querySelector("present"));
-		document.getElementById("outlineProgress").innerHTML = n;
+		document.getElementById("outlineProgress").innerHTML = tempItems;
 	</script>
 	<!-- This is from https://github.com/rofrol/reveal.js/blob/fixed_header/index.html#L411 -->
 	<!-- defines style for making slides an absolute size -->
