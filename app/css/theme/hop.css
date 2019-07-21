@@ -117,9 +117,9 @@ body {
 .reveal ol,
 .reveal dl,
 .reveal ul {
-  display: inline-block;
+  /* display: inline-block; */
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 2em; }
 
 .reveal ol {
   list-style-type: decimal; }
@@ -276,6 +276,7 @@ body {
  *********************************************/
 .reveal .controls {
   color: #CF4520; }
+  /* margin-bottom: 2%; } */
 
 /*********************************************
  * PROGRESS BAR
@@ -331,17 +332,18 @@ body {
  .head {
    /* position: absolute; */
    display: flex;
-   align-items: center;
+   /* align-items: center; */
    position: absolute;
    top: 0;
    height: 13%;
    width: 100%;
    background: #002D72;
+   font-size: .5em;
  }
 
  .foot {
    float: left;
-   bottom: 0;
+   bottom: 3%;
    position: absolute;
    height: 2%;
    width: 100%;
@@ -357,7 +359,7 @@ body {
   }
 
   .logo-right {
-    margin-left: 92.5%;
+    margin-left: 77.5%;
   }
 
   .reveal svg {
@@ -367,12 +369,6 @@ body {
 
   .arrow-svg-container {
     position: absolute;
-    /* display: inline; */
-    /* display: initial; */
-    /* position: absolute; */
-    /* float: left; */
-    /* top: 25%; */
-
     height:0;
     width: 100%;
     padding: 0;
@@ -403,12 +399,33 @@ body {
 }
 
 .par-left {
+  position: absolute;
   text-align: left;
   font-size: .67em;
   /* position: relative; */
   /* display: inline-block; */
 }
 
+.par-right {
+  position: relative;
+  text-align: right;
+  font-size: .67em;
+  /* position: relative; */
+  /* display: inline-block; */
+  }
+
+  .reveal #header-name {
+  padding-left: 1em;
+  font-size: .5em;
+  top: 10%;
+  }
+
+  .reveal .outline-indicator {
+  padding-left: 1em;
+  font-size: .5em;
+  bottom: 10%;
+  color: #CF4520;
+  }
   /*
   svg {
     color: currentColor;

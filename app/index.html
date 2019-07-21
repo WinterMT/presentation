@@ -28,6 +28,7 @@ Winter Maxwell Thayer
 		</script>
 	</head>
 	<body>
+		<!-- CONSIDER DECLARING ALL SVG HERE THEN INSTANTIATING THEM BELOW -->
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 570" style="display: none;">
 			<defs>
 				<g id="arrow">
@@ -40,11 +41,11 @@ Winter Maxwell Thayer
 			</defs>
 		</svg>
 
-
+		<!-- Start slides -->
 		<div class="reveal">
 			<div class="slides">
 				<!--- Start slides -->
-				<section data-background-image="resources/university.shield.large.blue.svg" data-background-size="100%" data-background-position="-200px -100px" data-background-clip="padding-box" data-background-opacity="0.45">
+				<section id="title" data-background-image="resources/university.shield.large.blue.svg" data-background-size="100%" data-background-position="-200px -100px" data-background-clip="padding-box" data-background-opacity="0.45">
 					<h1>Prostate cancer treatment decision-making</h2>
 					<small><h3>NR.120.518 Philosophical, Theoretical & Ethical Basis of Advanced Nursing Practice</h3></small>
 					<h4>Winter Maxwell Thayer, MSPH</h4>
@@ -52,20 +53,15 @@ Winter Maxwell Thayer
 				</section>
 
 				<!-- Use background-clip to bound the logo somehow-->
-				<section>
+				<section id="outline">
 					<div class="head">
-						<!-- Trouble right-aligning name! -->
-						<!-- <p id=myName float="left" left="95%" font-size=".5em">Winter Maxwell Thayer, MSPH </p> -->
-						<!-- <br></br> -->
 						<object id='logo-white' class="logo-right" type="image/svg+xml" align="right" opacity="0.8" declare>
 							<param name="src" value="resources/university.shield.large.white.svg">
 						Johns Hopkins University School of Nursing
 					</object></div>
-
 					<h2>Outline</h2>
 					<div class="inSlide" height="100%">
 						<h5>Part One</h5>
-						<!-- There seems to be an issue with ul in the css file -->
 						<ul>
 							<p>Introduction</p>
 							<p>Practice setting</p>
@@ -80,8 +76,10 @@ Winter Maxwell Thayer
 					<div class="foot"></div>
 				</section>
 
-				<section>
+				<section id="introduction">
 					<div class="head">
+						<p id="header-name">Winter Maxwell Thayer, MSPH</p>
+						<p id="outlineProgress" class="outline-indicator"></p>
 						<object id='logo-white' class="logo-right" type="image/svg+xml" align="right" opacity="0.8" declare>
 							<param name="src" value="resources/university.shield.large.white.svg">
 						Johns Hopkins University School of Nursing
@@ -110,12 +108,25 @@ Winter Maxwell Thayer
 							<use xlink:href="#arrow"></use>
 						</svg>
 					</div>
+					<div class="par-right">
+						<p padding-left="2em">Empirical</p>
+						<p>  </p>
+						<p padding-right="2em">content</p>
+					</div>
 					<h6>Adapted from http://publishingarchaeology.blogspot.com/2011/07/why-dont-archaeologists-talk-about.html &nbsp;&nbsp; Last accessed: 2019-05-02</h6>
-
 					<div class="foot"></div>
 				</section>
 
-				<section>
+				<section id="introduction">
+					<h2>Practice setting</h2>
+					<object type="image/svg+xml" align="left" opacity="0.8" declare>
+						<param name="src" value="RandomUtilityTheory2-40.svg">
+					</object>
+					<img src="RandomUtilityTheory2-40.svg"></img>
+					<div class="foot"></div>
+				</section>
+
+				<section id="introduction">
 					<h2>Practice setting</h2>
 					<object id='arrow_lessMore' type="image/svg+xml" align="left" opacity="0.8" declare>
 						<param name="src" value="RandomUtilityTheory2-40.svg">
@@ -123,18 +134,6 @@ Winter Maxwell Thayer
 					<img src="RandomUtilityTheory2-40.svg"></img>
 					<div class="foot"></div>
 				</section>
-
-				<!-- <section>
-					h1>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section> -->
-
-			</div>
-		</div>
 
 		<script src="js/reveal.js"></script>
 
@@ -151,12 +150,24 @@ Winter Maxwell Thayer
 				]
 			});
 		</script>
-		<!-- Javascript to get the present date -->
+		<!-- Hello world, this is my Javascript -->
+		<!-- FIND A WAY TO SET THE HEADER AND FOOTER SIZES IN JS  losing bottom based on screen aspect ratio -->
 		<script type="text/javascript">
+		// Javascript to get the present date
 		var d = new Date();
-		m = d.getMonth() + 1
-		d = d.getFullYear() + " • " + m + " • " + d.getDate()
+		m = d.getMonth() + 1;
+		d = d.getFullYear() + " • " + m + " • " + d.getDate();
 		document.getElementById("today").innerHTML = d;
+		// Javascript to get the section name
+		var n = "";
+		tn = document.getElementsByTagName("section")
+		console.log("This works");
+		console.log(tn);
+		console.log(tn[2].className);
+		n = document.getElementsByClassName("present");
+		console.log(n);
+		console.log(document.querySelector("present"));
+		document.getElementById("outlineProgress").innerHTML = n;
 	</script>
 	<!-- This is from https://github.com/rofrol/reveal.js/blob/fixed_header/index.html#L411 -->
 	<!-- defines style for making slides an absolute size -->

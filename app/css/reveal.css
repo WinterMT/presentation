@@ -224,8 +224,8 @@ body {
   display: none;
   position: absolute;
   top: auto;
-  bottom: 12px;
-  right: 12px;
+  bottom: 20px;
+  right: 20px;
   left: auto;
   z-index: 1;
   color: #000;
