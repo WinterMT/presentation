@@ -84,7 +84,7 @@ body {
 
 .reveal h6 {
   position: absolute;
-  top: 96%;
+  top: 93%;
   font-size: 0.25em;
   text-align: left;
   vertical-align: bottom;
@@ -359,7 +359,7 @@ body {
   }
 
   .logo-right {
-    margin-left: 77.5%;
+    margin-left: 74.5%;
   }
 
   .reveal svg {
@@ -415,16 +415,36 @@ body {
   }
 
   .reveal #header-name {
-  padding-left: 1em;
-  font-size: .5em;
-  top: 10%;
+    /* padding-left: 10px; */
+    font-size: .6em;
+    top: 10%;
+  }
+
+  .reveal #man-zero {
+    /* padding-left: 10px; */
+    fill: #8A2A2B;
+    stroke: currentColor;
+    stroke-width: .5;
+    top: 10%;
+  }
+
+  .reveal #men-one-eight {
+    fill: #191919;
+    stroke: currentColor;
+    stroke-width: .5;
   }
 
   .reveal .outline-indicator {
-  padding-left: 1em;
-  font-size: .5em;
-  bottom: 10%;
+  /* padding-left: 10px; */
+  font-size: .8em;
+  /* bottom: 0%; */
   color: #CF4520;
+  opacity: .8;
+  }
+
+  .reveal .header-left {
+    text-align: left;
+    padding-left: 15px;
   }
   /*
   svg {
