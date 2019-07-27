@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 432">
+<defs>
+	<g id="eye">
+		<path id="eye-outline" fill="inherit" stroke="inherit" stroke-miterlimit="10" d="M345.18555,213.64258
+			c0,23.20898-89.61719,80.19531-165.18555,80.19531c-75.56738,0-165.18555-54.48242-165.18555-80.19531
+			c0-23.80469,89.61816-80.19336,165.18555-80.19336C255.56836,133.44922,345.18555,189.83789,345.18555,213.64258z"/>
+		<circle id="eye-iris" fill="inherit" stroke="inherit" stroke-miterlimit="10" cx="178.33105" cy="213.08594" r="57.48535"/>
+		<circle id="eye-pupil" fill="none" stroke="inherit" stroke-miterlimit="10" cx="178.33154" cy="213.08594" r="25.56396"/>
+	</g>
+</defs>
+</svg>

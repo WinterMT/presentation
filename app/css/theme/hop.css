@@ -81,7 +81,6 @@ body {
   text-indent: 1em;
 }
 
-
 .reveal h6 {
   position: absolute;
   top: 93%;
@@ -301,30 +300,57 @@ body {
  * My additions
  * BOXES
  *********************************************/
+/* @font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+} */
+
+/* .my-name {
+  font-family: "Raleway";
+} */
  /* .reveal div:nth-of-type(1) {
    color: currentColor
- } */
+ /*********************************************
+ /*
+ * BOXES
+ *********************************************/
+
  .reveal .box {
-   /* display: inline-block; */
    position: relative;
-   /* float: right; */
-   /* display: -webkit-flex; */
    border: 3px solid #002D72;
    left: 6em;
    width: 10em;
-   height: 1.3em;
+   /* height: 1.3em; */
    padding-left: 2%;
    padding-right: 2%;
    padding-top: 1%;
    padding-bottom: 1%;
-   /* right: 66.7%; */
-   /* width: 33%; */
-   /* padding-left: 33% */
-   /* margin-left: auto; */
+ }
+
+ .reveal .box-small {
+   position: relative;
+   border: 3px solid #002D72;
+   left: 67%;
+   width: 15em;
+   line-height: 1.5em;
+   /* margin-top: 5%; */
+   /* margin-bottom: 5%; */
+   margin-left: 5%;
    /* margin-right: auto; */
-   /* padding: 33%; */
-   /* margin: .5em 1em .5em 1em; */
-   /* padding: .5em 1em .5em 1em; */
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-size: .6em;
+   display: block;
+   /* align-items: center; */
+   /* text-align: center; */
+ }
+
+ .reveal .ontepi {
+   border: #002D72;
+   background-color: #002D72;
+   opacity: .67;
  }
  /*********************************************
   * HEADER AND FOOTER
@@ -358,6 +384,11 @@ body {
     top: 25%;
   }
 
+  div.centered {
+    position: absolute;;
+
+  }
+
   .logo-right {
     margin-left: 74.5%;
   }
@@ -365,6 +396,11 @@ body {
   .reveal svg {
     fill: currentColor;
     stroke: currentColor;
+  }
+
+  .reveal svg.use {
+    fill: inherit;
+    /* stroke: currentColor; */
   }
 
   .arrow-svg-container {
@@ -396,31 +432,42 @@ body {
   width: 100%;
   left: 0;
   top:0;
-}
-
-.par-left {
-  position: absolute;
-  text-align: left;
-  font-size: .67em;
-  /* position: relative; */
-  /* display: inline-block; */
-}
-
-.par-right {
-  position: relative;
-  text-align: right;
-  font-size: .67em;
-  /* position: relative; */
-  /* display: inline-block; */
   }
+
+  .par-left {
+    position: absolute;
+    text-align: left;
+    font-size: .67em;
+    /* position: relative; */
+    /* display: inline-block; */
+  }
+
+  .par-right {
+    position: relative;
+    text-align: right;
+    font-size: .67em;
+    /* position: relative; */
+    /* display: inline-block; */
+    }
 
   .reveal #header-name {
     /* padding-left: 10px; */
     font-size: .6em;
     top: 10%;
+    /* font-family: "Raleway"; */
   }
 
-  .reveal #man-zero {
+  .reveal use.text-more {
+    color: #DDA46F;
+  }
+
+  .reveal use.text-less {
+    color: #A7BCD6;
+    /* stroke: currentColor; */
+  }
+
+
+  .reveal use.man-zero {
     /* padding-left: 10px; */
     fill: #8A2A2B;
     stroke: currentColor;
@@ -428,7 +475,7 @@ body {
     top: 10%;
   }
 
-  .reveal #men-one-eight {
+  .reveal .men {
     fill: #191919;
     stroke: currentColor;
     stroke-width: .5;
@@ -445,6 +492,30 @@ body {
   .reveal .header-left {
     text-align: left;
     padding-left: 15px;
+  }
+
+  .highlight-yellow {
+    color: #F7EA48;
+    stroke: currentColor;
+    stroke-width: .5;
+  }
+
+  .slide-content {
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  use.treatment-symbol {
+    /* stroke: #EF4A81; */
+    stroke: #000;
+  }
+
+  .rad {
+     padding-left: "10px";
+  }
+
+  .my-name {
+    font-family: Raleway;
   }
   /*
   svg {

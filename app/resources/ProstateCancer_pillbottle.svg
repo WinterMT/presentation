@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 432">
+	<defs>
+		<g id="pill-symbol">
+			<g id="pills">
+				<path id="pill-back" fill="inherit" stroke="inherit" stroke-miterlimit="10" d="M129.12598,336.89844
+					c0,9.17969-7.44043,16.61914-16.61816,16.61914v0.15625H49.44238v-0.15625c-9.17773,0-16.61719-7.43945-16.61719-16.61914
+					s7.43945-16.61914,16.61719-16.61914v-0.15234h63.06543v0.15234C121.68555,320.2793,129.12598,327.71875,129.12598,336.89844z"/>
+				<path id="pill-front" fill="inherit" stroke="inherit" stroke-miterlimit="10" d="M147.87402,353.67188
+					c0,9.17969-7.43945,16.61914-16.61816,16.61914v0.1582H68.19141v-0.1582c-9.17871,0-16.61816-7.43945-16.61816-16.61914
+					c0-9.17773,7.43945-16.61719,16.61816-16.61719v-0.1543h63.06445v0.1543
+					C140.43457,337.05469,147.87402,344.49414,147.87402,353.67188z"/>
+			</g>
+			<g id="pill-bottole-cap">
+					<rect id="pill-bottle" fill="inherit" stroke="inherit" x="151.09668" y="103.80859" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="155.83984" height="241.47852"/>
+					<rect id="pill-cap" fill="inherit" stroke="inherit"  x="130.35254" y="61.55273" fill="none" stroke="#000000" stroke-miterlimit="10" width="196.82227" height="69.18945"/>
+			</g>
+		</g>
+	</defs>
+</svg>

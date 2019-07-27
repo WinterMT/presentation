@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 432">
+	<defs>
+		<g id="radiation">
+			<path fill="inherit" d="M243.37891,208.56934c1.7168,0.38281,3.37109,0.58398,4.86719,0.58398h-4.86719V208.56934z"/>
+			<g id="radiation-back">
+				<path fill="inherit" d="M248.24609,176.70801c-1.49609,0-3.15039,0.20312-4.86719,0.58398v-0.58398H248.24609z"/>
+				<circle fill="inherit" stroke="inherit" stroke-miterlimit="10" cx="228.6377" cy="191.49316" r="114.45996"/>
+				<circle fill="inherit" stroke="inherit" stroke-miterlimit="10" cx="230.03271" cy="192.77051" r="35.80127"/>
+			</g>
+			<g id="radiation-left">
+				<polygon fill="inherit" stroke="inherit" stroke-miterlimit="10" points="138.98145,283.10449 93.55566,287.50293
+					93.55566,91.22754 138.98145,95.62402 			"/>
+				<polygon fill="inherit" stroke="inherit" stroke-miterlimit="10" points="93.55566,298.07715 16.90234,325.6748
+					16.90234,52.24121 93.55566,79.83887 			"/>
+				<rect x="138.98145" y="154.06738" fill="inherit" stroke="inherit" stroke-miterlimit="10" width="9.73438" height="71.72656"/>
+			</g>
+			<g id="radiation-table">
+				<rect x="144.8623" y="359.63379" fill="inherit" stroke="inherit" stroke-miterlimit="10" width="178.45312" height="15.41211"/>
+				<polygon fill="inherit" stroke="inherit" stroke-miterlimit="10" points="287.2207,263.86816 180.95801,263.86816
+					144.8623,359.63379 323.31543,359.63379 			"/>
+			</g>
+		</g>
+	</defs>
+</svg>
