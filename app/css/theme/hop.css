@@ -503,11 +503,17 @@ body {
   .slide-content {
     text-align: left;
     padding-left: 1em;
+    margin-top: 50px;
   }
 
   use.treatment-symbol {
     /* stroke: #EF4A81; */
     stroke: #000;
+    transition: color .75s;
+  }
+
+  use.treatment-symbol:hover {
+    color: #74AA50;
   }
 
   .rad {
@@ -517,6 +523,19 @@ body {
   .my-name {
     font-family: Raleway;
   }
+
+  .column {
+  float: left;
+  width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   /*
   svg {
     color: currentColor;
