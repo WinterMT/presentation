@@ -71,7 +71,8 @@ body {
   text-align: left; }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  color: #aaa}
 
 .reveal h4 {
   font-size: 1em; }
@@ -147,7 +148,7 @@ body {
 
 .reveal blockquote {
   display: block;
-  position: relative;
+  /* position: relative; */
   width: 70%;
   margin: 20px auto;
   padding: 5px;
@@ -157,7 +158,9 @@ body {
 
 .reveal blockquote p:first-child,
 .reveal blockquote p:last-child {
-  display: inline-block; }
+  display: inline-block;
+  /* display: block; */
+}
 
 .reveal q {
   font-style: italic; }
@@ -380,9 +383,19 @@ body {
   *********************************************/
   div.inSlide {
     position: absolute;
-    /* display: flex; */
     top: 25%;
   }
+
+  p.inSlide {
+    position: absolute;
+    top: 23%
+  }
+
+  .blockquote-adjust {
+    /* margin-top: 10%; */
+    position: absolute;
+    left: 15%;
+    top: 35%;  }
 
   div.centered {
     position: absolute;;
@@ -516,6 +529,10 @@ body {
     color: #74AA50;
   }
 
+  .treatment-label {
+    color: #000;
+  }
+
   .rad {
      padding-left: "10px";
   }
@@ -534,6 +551,14 @@ body {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .bibtexnumber {
+    font-size: 20px;
+  }
+
+  .bibtexitem {
+    font-size: 15px;
   }
 
   /*

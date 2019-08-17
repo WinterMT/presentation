@@ -20,6 +20,9 @@ Reveal.initialize({
 		{ src: '../plugin/markdown/marked.js' },
 		// Test loading JS files with query strings
 		{ src: '../plugin/markdown/markdown.js?query=string' },
+		// Add the node-js plugin for server-side notes
+		{ src: 'socket.io/socket.io.js', async: true },
+		{ src: 'plugin/notes-server/client.js', async: true }
 	],
 	markdown: {
 		smartypants: true

@@ -1,3 +1,17 @@
+## My notes
+
+2019-08-16
+
+Currently using bibtex2html to create the reference slides. command is
+
+bibtex2html [options] [filename.bib]
+
+Using the following command:
+
+bibtex2html -a -css css/theme/hop.css theory-and-ethics.bib
+
+-nokeys can be used to remove the numbers, -a sorts as bibtex (probably by author)
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
@@ -951,10 +965,10 @@ To enable line numbers, add `data-line-numbers` to your `<code>` tags. If you wa
 ```html
 <pre><code class="hljs" data-line-numbers="4,8-11">
 import React, { useState } from 'react';
- 
+
 function Example() {
   const [count, setCount] = useState(0);
- 
+
   return (
     <div>
       <p>You clicked {count} times</p>
