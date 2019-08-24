@@ -590,6 +590,22 @@ body {
     font-size: 15px;
   }
 
+  #para-utility {
+    font-size: .6em;
+  }
+
+  .svg-left {
+    position: absolute;
+    left: 3%;
+    top: 35%;
+  }
+
+  .svg-right {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+  }
+
   /*
   svg {
     color: currentColor;
