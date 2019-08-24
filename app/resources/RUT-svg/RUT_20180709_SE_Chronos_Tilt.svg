@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 708.69 844.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        stroke-width: 0.59px;
+      }
+
+      .cls-5 {
+        font-size: 34.82px;
+        fill: #231f20;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="382.38" y1="2353.85" x2="382.38" y2="3078.45" gradientTransform="matrix(0, 0.79, -1.01, 0, 3108.5, 126.43)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.03" stop-color="#adafb2"/>
+      <stop offset="0.15" stop-color="#fff"/>
+      <stop offset="0.23" stop-color="#f8f8f8"/>
+      <stop offset="0.35" stop-color="#e4e4e4"/>
+      <stop offset="0.5" stop-color="#c3c3c3"/>
+      <stop offset="0.66" stop-color="#959595"/>
+      <stop offset="0.84" stop-color="#5b5b5b"/>
+      <stop offset="1" stop-color="#1f1f1f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="75.47" y1="2362.32" x2="75.47" y2="3076.7" gradientTransform="matrix(0.76, 0.22, -0.28, 0.97, 843.87, -2292.08)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.02" stop-color="#adafb2"/>
+      <stop offset="0.14" stop-color="#fff"/>
+      <stop offset="0.22" stop-color="#f8f8f8"/>
+      <stop offset="0.35" stop-color="#e4e4e4"/>
+      <stop offset="0.49" stop-color="#c3c3c3"/>
+      <stop offset="0.66" stop-color="#959595"/>
+      <stop offset="0.84" stop-color="#5b5b5b"/>
+      <stop offset="1" stop-color="#1f1f1f"/>
+    </linearGradient>
+  </defs>
+  <title>RUT_20180709</title>
+  <g id="Shapes">
+    <g>
+      <g>
+        <rect class="cls-1" x="-1.67" y="233.52" width="730.21" height="387.57" transform="translate(-148.59 656.44) rotate(-73.73)"/>
+        <path class="cls-2" d="M75.8,723.65c-51.29-15-47-184,9.45-377.57S229.13,7.75,280.42,22.73l.07,0"/>
+        <path class="cls-3" d="M223.57,766.81c-51.28-15-47-184,9.45-377.56S376.9,50.92,428.19,65.89l.08,0"/>
+      </g>
+      <g>
+        <text/>        <g>
+          <path class="cls-4" d="M663.3,482.72C611.23,676.53,519,833.64,457.21,833.64S387.63,676.53,439.7,482.72,584.05,131.79,645.79,131.79,715.38,288.91,663.3,482.72Z"/>
+          <path class="cls-4" d="M614.42,550.32C574.65,663,519.64,746,480.77,746c-7.28,0-13.56-2.91-18.83-8.38"/>
+          <path class="cls-4" d="M654.54,254.08c13.06,45.37,7.13,130.77-19.17,228.64-.84,3.13-1.7,6.26-2.57,9.36"/>
+          <path class="cls-4" d="M531.82,315.18c31.09-58.46,64.37-95.72,90.42-95.72,9.66,0,17.57,5.13,23.68,14.58"/>
+          <path class="cls-4" d="M449.77,715.56c-14.72-44.16-9.27-131.86,17.86-232.84a904.43,904.43,0,0,1,31.79-96.62"/>
+          <path class="cls-4" d="M527.78,637.74c-7.28,6.23-14.23,9.62-20.51,9.62-29.69,0-33.45-75.53-8.42-168.7,3.17-11.82,6.66-23.35,10.39-34.48"/>
+          <path class="cls-4" d="M622.74,378.9c-1,27.94-6.37,62.44-16.4,99.76-15.05,56-37.07,105.61-58.69,136.3"/>
+          <path class="cls-4" d="M525.82,400.82c23.46-54,51.36-90.85,72.1-90.85,14.46,0,22.77,17.92,24.59,47.07"/>
+          <path class="cls-4" d="M571.65,494.48c-11.38,33.73-27.73,59-39.16,59-3.59,0-6.32-2.49-8.17-6.94"/>
+          <path class="cls-4" d="M568.52,404.84a10.12,10.12,0,0,1,4.18-1c12.32,0,14.57,29.33,5.71,67"/>
+          <path class="cls-4" d="M521.43,529.12c-.3-13.3,2.1-31,7.32-50.46,8.49-31.58,22-58.59,33.75-69.57"/>
+          <text class="cls-5" transform="matrix(0.31, 0, -0.26, 0.97, 596.17, 281.34)">E<tspan class="cls-6" x="17.13" y="0">x</tspan><tspan x="32.73" y="0">o</tspan></text>
+          <text class="cls-5" transform="matrix(0.31, 0, -0.26, 0.97, 563.76, 386.66)"><tspan class="cls-7">M</tspan><tspan x="28.2" y="0">eso</tspan></text>
+          <text class="cls-5" transform="matrix(0.31, 0, -0.26, 0.97, 538.46, 478.66)"><tspan class="cls-8">M</tspan><tspan class="cls-9" x="28.41" y="0">ic</tspan><tspan class="cls-10" x="52.15" y="0">r</tspan><tspan x="63.19" y="0">o</tspan></text>
+          <text class="cls-5" transform="matrix(0.31, 0, -0.26, 0.97, 614.9, 189.35)"><tspan class="cls-7">M</tspan><tspan x="28.2" y="0">ac</tspan><tspan class="cls-10" x="60.58" y="0">r</tspan><tspan x="71.62" y="0">o</tspan></text>
+          <text/>        </g>
+      </g>
+    </g>
+  </g>
+</svg>

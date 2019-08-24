@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1008.1 639.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-10, .cls-2 {
+        fill: none;
+      }
+
+      .cls-10, .cls-2, .cls-3 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-width: 0.41px;
+      }
+
+      .cls-4 {
+        font-size: 22.25px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-11, .cls-12, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        stroke-width: 3px;
+      }
+
+      .cls-12 {
+        font-size: 48px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="470.25" y1="157.84" x2="470.25" y2="620.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#231f20"/>
+    </linearGradient>
+  </defs>
+  <title>RUT_20180709</title>
+  <g id="Shapes">
+    <g>
+      <path id="gradient-fill" class="cls-1" d="M902.51,157.84V620.6H116.67C73.21,620.6,38,517,38,389.22s35.21-231.38,78.67-231.38Z"/>
+      <g>
+        <path class="cls-2" d="M274.67,620.61C231.21,620.61,196,517,196,389.22s35.21-231.38,78.67-231.38h.06"/>
+        <path class="cls-2" d="M432.67,620.61C389.21,620.61,354,517,354,389.22s35.21-231.38,78.67-231.38h.06"/>
+        <path class="cls-2" d="M590.67,620.61C547.21,620.61,512,517,512,389.22s35.21-231.38,78.67-231.38h.06"/>
+        <path class="cls-2" d="M748.67,620.61C705.21,620.61,670,517,670,389.22s35.21-231.38,78.67-231.38h.06"/>
+      </g>
+      <ellipse class="cls-3" cx="902.51" cy="389.22" rx="78.96" ry="232.22"/>
+      <path class="cls-3" d="M959.77,434c-6.71,74.54-29.8,129.48-57.26,129.48-5.14,0-10.13-1.93-14.88-5.55"/>
+      <path class="cls-3" d="M931.9,237.92c17.83,30,29.85,86.54,29.85,151.3,0,2.08,0,4.15,0,6.2"/>
+      <path class="cls-3" d="M856.82,278.36c10.87-38.69,27.3-63.35,45.69-63.35,6.83,0,13.39,3.4,19.49,9.65"/>
+      <path class="cls-3" d="M874.85,543.31c-18.78-29.23-31.57-87.26-31.57-154.09a483.19,483.19,0,0,1,4.12-63.94"/>
+      <path class="cls-3" d="M915.17,491.81c-4,4.12-8.22,6.37-12.66,6.37-21,0-38-50-38-111.64,0-7.82.27-15.45.79-22.82"/>
+      <path class="cls-3" d="M933.12,320.52c4.62,18.49,7.35,41.32,7.35,66,0,37-6.14,69.89-15.58,90.19"/>
+      <path class="cls-3" d="M868.83,335c6.33-35.73,19-60.12,33.68-60.12,10.22,0,19.48,11.86,26.31,31.15"/>
+      <path class="cls-3" d="M919,397c-1.63,22.32-8.38,39.05-16.46,39.05-2.53,0-4.93-1.65-7.08-4.59"/>
+      <path class="cls-3" d="M899.75,337.69a6.23,6.23,0,0,1,2.76-.67c8.71,0,15.86,19.42,16.75,44.32"/>
+      <path class="cls-3" d="M890.08,419.93c-2.73-8.8-4.4-20.52-4.4-33.39,0-20.9,4.4-38.77,10.63-46"/>
+      <text class="cls-4" transform="translate(895.82 255.95) scale(0.34 1)">E<tspan class="cls-5" x="10.95" y="0">x</tspan><tspan x="20.92" y="0">o</tspan></text>
+      <text class="cls-4" transform="translate(892.92 325.65) scale(0.34 1)"><tspan class="cls-6">M</tspan><tspan x="18.02" y="0">eso</tspan></text>
+      <text class="cls-4" transform="translate(892.52 386.53) scale(0.34 1)"><tspan class="cls-7">M</tspan><tspan x="18.16" y="0">ic</tspan><tspan class="cls-8" x="33.33" y="0">r</tspan><tspan x="40.39" y="0">o</tspan></text>
+      <text class="cls-4" transform="translate(891.6 195.08) scale(0.34 1)"><tspan class="cls-6">M</tspan><tspan x="18.02" y="0">ac</tspan><tspan class="cls-9" x="38.72" y="0">r</tspan><tspan x="45.77" y="0">o</tspan></text>
+    </g>
+  </g>
+  <g id="Lines">
+    <g>
+      <line class="cls-10" x1="114.21" y1="86.33" x2="905.39" y2="86.33"/>
+      <polygon class="cls-11" points="122.64 97.44 117.92 86.33 122.64 75.22 96.31 86.33 122.64 97.44"/>
+      <polygon class="cls-11" points="896.96 97.44 901.68 86.33 896.96 75.22 923.3 86.33 896.96 97.44"/>
+    </g>
+  </g>
+  <g id="Words">
+    <text class="cls-12" transform="translate(413.71 55.35)">Chronos</text>
+  </g>
+</svg>

@@ -330,6 +330,26 @@ body {
    padding-bottom: 1%;
  }
 
+ .reveal .box-medium {
+   position: relative;
+   border: 3px solid #002D72;
+   left: 67%;
+   width: 11.25em;
+   line-height: 1.5em;
+   /* margin-top: 5%; */
+   /* margin-bottom: 5%; */
+   margin-left: 5%;
+   /* margin-right: auto; */
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-size: .8em;
+   display: block;
+   /* align-items: center; */
+   /* text-align: center; */
+ }
+
  .reveal .box-small {
    position: relative;
    border: 3px solid #002D72;
@@ -388,7 +408,16 @@ body {
 
   p.inSlide {
     position: absolute;
-    top: 23%
+    top: 23%;
+  }
+
+  svg.inSlide {
+    position: absolute;
+    top: 25%;
+  }
+
+  svg.rotate {
+    transform: rotate(45);
   }
 
   .blockquote-adjust {
@@ -398,7 +427,7 @@ body {
     top: 35%;  }
 
   div.centered {
-    position: absolute;;
+    position: absolute;
 
   }
 

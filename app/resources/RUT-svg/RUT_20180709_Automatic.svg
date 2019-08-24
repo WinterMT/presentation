@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 58.15px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-1, .cls-2, .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-1 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5, .cls-8 {
+        stroke: #231f20;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke-width: 4.29px;
+      }
+
+      .cls-5, .cls-7 {
+        stroke-width: 4.09px;
+      }
+
+      .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-8 {
+        stroke-miterlimit: 10;
+        stroke-width: 0.97px;
+      }
+    </style>
+  </defs>
+  <title>RUT_20180709</title>
+  <g id="Shapes">
+    <g>
+      <text class="cls-1" transform="translate(282.6 75.37)">P</text>
+      <text class="cls-2" transform="translate(282.6 176.14)">N</text>
+      <text class="cls-2" transform="translate(282.6 276.9)">D</text>
+      <text class="cls-2" transform="translate(282.6 377.67)">R</text>
+      <g>
+        <path class="cls-3" d="M222.77,382.23a20.37,20.37,0,0,1-20.32,20.32H149.72a20.37,20.37,0,0,1-20.32-20.32V25.77A20.37,20.37,0,0,1,149.72,5.45h52.73a20.37,20.37,0,0,1,20.32,20.32Z"/>
+        <path class="cls-4" d="M222.77,382.23a20.37,20.37,0,0,1-20.32,20.32H149.72a20.37,20.37,0,0,1-20.32-20.32V25.77A20.37,20.37,0,0,1,149.72,5.45h52.73a20.37,20.37,0,0,1,20.32,20.32Z"/>
+      </g>
+      <rect class="cls-5" x="167.86" y="69.4" width="15.01" height="273.27"/>
+      <g>
+        <rect class="cls-6" x="86.17" y="230.84" width="177.3" height="58.04" rx="19.38"/>
+        <rect class="cls-7" x="86.17" y="230.84" width="177.3" height="58.04" rx="19.38"/>
+      </g>
+      <g>
+        <rect class="cls-3" x="110.36" y="238.27" width="128.57" height="12.27" rx="4.85"/>
+        <rect class="cls-8" x="110.36" y="238.27" width="128.57" height="12.27" rx="4.85"/>
+      </g>
+    </g>
+  </g>
+</svg>

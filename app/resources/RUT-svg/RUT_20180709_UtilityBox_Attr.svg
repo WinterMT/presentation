@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 410">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        stroke: #969696;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+        fill: #d8d8d8;
+        stroke: #434343;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-4 {
+        font-size: 48px;
+        font-family: ArialMT, Arial;
+        font-weight: 400;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.06em;
+      }
+    </style>
+  </defs>
+  <title>RUT_20180709</title>
+  <g id="Shapes">
+    <g>
+      <rect class="cls-1" x="102.6" y="101.93" width="289.19" height="289.19"/>
+      <polygon class="cls-1" points="18.21 51.57 101.88 101.93 101.88 391.12 18.21 340.76 18.21 51.57"/>
+      <polygon class="cls-1" points="18.21 51.57 101.07 102.02 390.26 102.02 307.4 51.57 18.21 51.57"/>
+      <text class="cls-2" transform="translate(121.07 200.67)">Option<tspan class="cls-3" x="193.27" y="0" xml:space="preserve"> A</tspan><tspan class="cls-4"><tspan x="15.01" y="57.6">Attribute 1</tspan><tspan x="15.01" y="115.2">Attribute 2</tspan><tspan x="-14.32" y="172.8">...</tspan><tspan class="cls-5" x="25.69" y="172.8"> </tspan><tspan x="36.38" y="172.8">Attribute N</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

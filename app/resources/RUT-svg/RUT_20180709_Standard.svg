@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        stroke-width: 19.28px;
+      }
+
+      .cls-3 {
+        stroke-width: 12.49px;
+      }
+
+      .cls-4 {
+        stroke-width: 14.9px;
+      }
+
+      .cls-5 {
+        font-size: 72px;
+        fill: #231f20;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <title>RUT_20180709</title>
+  <g id="Shapes">
+    <g>
+      <circle class="cls-1" cx="200" cy="200" r="186.34"/>
+      <line class="cls-2" x1="110" y1="200" x2="290" y2="200"/>
+      <line class="cls-3" x1="110" y1="253.73" x2="110" y2="146.27"/>
+      <line class="cls-4" x1="200" y1="253.73" x2="200" y2="146.27"/>
+      <line class="cls-3" x1="290.01" y1="253.73" x2="290.01" y2="146.27"/>
+      <text class="cls-5" transform="translate(92 120.69)">1</text>
+      <text class="cls-5" transform="translate(183 120.69)">2</text>
+      <text class="cls-5" transform="translate(272 120.69)">3</text>
+      <text class="cls-5" transform="translate(92 320.69)">4</text>
+      <text class="cls-5" transform="translate(183 320.69)">5</text>
+      <text class="cls-5" transform="translate(268 320.69)">R</text>
+    </g>
+  </g>
+</svg>
