@@ -440,7 +440,7 @@ body {
     stroke: currentColor;
   }
 
-  .reveal svg.use {
+  .reveal use {
     fill: inherit;
     /* stroke: currentColor; */
   }
@@ -604,6 +604,45 @@ body {
     position: absolute;
     right: 3%;
     top: 35%;
+  }
+
+  .prior {
+    /* stroke: #F7EA48; */
+    color: #F7EA48;
+    /* fill: #F7EA48; */
+    /* font-color: #F7EA48; */
+  }
+
+  .prior:hover {
+    color: #F7EA48;
+  }
+
+  .likelihood {
+    color: #FF9E1B;
+  }
+
+  .likelihood:hover {
+    color: #FF9E1B;
+  }
+
+  .marginal {
+    color: #418FDE;
+  }
+
+  .marginal:hover {
+    color: #418FDE;
+  }
+
+  .posterior {
+    color: #74AA50;
+  }
+
+  .posterior:hover {
+    color: #74AA50;
+  }
+
+  .bayes-equals-sign {
+    color: inherit;
   }
 
   /*
