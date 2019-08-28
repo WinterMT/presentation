@@ -504,6 +504,26 @@ body {
     /* display: inline-block; */
   }
 
+  .par-left-down {
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    text-align: left;
+    font-size: .67em;
+    /* position: relative; */
+    /* display: inline-block; */
+  }
+
+  .par-right-down {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    text-align: right;
+    font-size: .67em;
+    /* position: relative; */
+    /* display: inline-block; */
+  }
+
   .par-right {
     position: relative;
     text-align: right;
