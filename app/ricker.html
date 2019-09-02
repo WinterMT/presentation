@@ -1,0 +1,127 @@
+<!doctype html>
+
+<html>
+<head>
+</head>
+<body>
+  <div>
+    <button id="myButton" onclick="countLoop()">
+      <img id="ricker" src="resources/ricker/ricker1.png"></img>
+    </button>
+  </div>
+  <script type="text/javascript">
+    const path = "resources/ricker/"
+    const fileName = "ricker";
+    // var i = 0;
+    var index = 0;
+    var count = "up";
+
+
+    // function timer(ms) {
+    //  return new Promise(res => setTimeout(res, ms));
+    // }
+
+    function countUp() {
+      console.log("You're counting up!")
+      index = index + 1
+      thisFile = fileName + index + ".png";
+      document.getElementById("ricker").src = path + thisFile;
+      if (index > 25) {
+        count = "down";
+      }
+    }
+
+      // $('.ricker')
+      // async function load() {
+        // for (var i = 0; i < 51; i++) {
+        //   console.log(i)
+        //   thisFile = fileName + i + ".png";
+          // document.getElementById("ricker").src = path + thisFile;
+          // await timer(1000);
+        // }
+      // }
+      // count = "down"
+    // }
+
+    function countDown() {
+      index = index - 1
+      if (index < 1) {
+        count = "up";
+        countUp();
+        return
+      }
+      console.log("You're counting down!")
+      thisFile = fileName + index + ".png";
+      document.getElementById("ricker").src = path + thisFile;
+    }
+      // async function load() {
+        // for (var i = 50; i > 0; i--) {
+        //   console.log(i)
+        //   thisFile = fileName + i + ".png";
+        //   document.getElementById("ricker").src = path + thisFile;
+          // await timer(3000);
+        // }
+      // }
+      // count = "up";
+    // }
+
+    function countLoop() {
+      console.log("countLoop() at index" + index)
+      if (count == "up") {
+        // console.log(i);
+        countUp();
+      } else if (count == "down") {
+        // console.log(i);
+        countDown();
+      }
+    }
+
+    document.getElementById("myButton").onclick = function() {countLoop()};
+
+
+    // while(true){
+    // countLoop()
+
+    // }
+    // while(false)
+    // if (i < 51) {
+    //   console.log(i)
+    //   thisFile = fileName + i + ".png";
+    //   console.log(thisFile)
+    //   document.getElementById("ricker").src = path + thisFile;
+    //   i++
+    // } else {
+    //   console.log(i)
+    //   console.log(i)
+    //   thisFile = fileName + i + ".png";
+    //   i--
+    // }
+
+
+    // while(i < 51)
+    // {
+    //   console.log(i)
+    //   thisFile = fileName + i + ".png";
+    //   console.log(thisFile)
+    //   document.getElementById("ricker").src = path + thisFile;
+    //   i++
+    // }
+    // console.log(i)
+    // var i = 50;
+    // while(i > 1) {
+    //     console.log(i)
+    //     thisFile = fileName + i + ".png";
+    //     i--
+    // }
+
+    // for (var i = 0; i < 50; i++);
+    // {
+      // console.log(i)
+      // path = "resources/ricker/"
+      // fileName = "ricker";
+      // thisFile = fileName + i + ".png";
+      // console.log(thisFile)
+      // document.getElementById("ricker").src = path + thisFile;
+    // }
+  </script>
+</body>
