@@ -2,6 +2,8 @@
 
 <html>
 <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.2.1/math.min.js" type="text/javascript"></script>
+
   <style>
   body {background-color: #A7BCD6;}
   button {color: #002D72}
@@ -9,23 +11,162 @@
   </style>
 </head>
 <body>
+  <svg id="svgGraph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+    <defs>
+      <g id="graph">
+        <g id="points">
+        </g>
+      </g>
+    </defs>
+  </svg>
+  <div>
+    <svg id="svgInstance" width="1000px" height="500px">
+      <use href="#graph"></use>
+    </svg>
+  </div>
   <div>
     <button id="myButton" onclick="countLoop()">
       <img id="ricker" src="resources/ricker/ricker1.png">
     </button>
   </div>
   <p id="egg"></p>
+  <form>
+    Frequency:<br>
+    <input type="number" id="freq" value=25><br>
+    Length:<br>
+    <input type="number" id="len" value=0.128><br>
+    dt:<br>
+    <input type="number" id="dt" value=0.001>
+  </form>
+  <div>
+    <button id="mySVGButton" onclick="ricker(document.getElementById('freq').value, document.getElementById('len').value, document.getElementById('dt').value)">
+      <img id="ricker15" src="resources/ricker/ricker15.png">
+    </button>
+  </div>
+
   <script type="text/javascript">
     const path = "resources/ricker/"
     const fileName = "ricker";
-    // var i = 0;
+
+    // Try an implementation that computes the ricker function in js and
+    // manipulates svg to display it
+    // var pointsNum = 100
+    // var dimensions = 2
+    //
+    // const arr = Array(pointsNum).keys();
+    // //assert.equal(arr.length, pointsNum)
+    // //assert.deepEqual(Object.keys(arr), []);
+    // console.log(arr)
+    // // console.log(arr.map(function(key) {return arr[keys];}))
+    //
+    // x = Array(pointsNum)
+    // for (var i = 0; i < x.length; i++) {
+    //   x[i] = Array(dimensions);
+    // }
+
+    // console.log(x)
+
+    // function multiply(array) {
+    //     var sum = 1;
+    //     for (var i = 0; i < array.length; i++) {
+    //         sum = sum * array[i];
+    //     }
+    //     return sum;
+    // }
+
+    // for (var i = 0; i < pointsNum; i++) {
+    //   console.log(arr)
+    //   console.log(arr.next())
+    //   // console.log(multiply(arr))
+    // }
+
+    var myGraph = document.getElementById("graph");
+    // console.log(myGraph);
+    var myPoints = document.getElementById("points");
+    // console.log(myPoints);
+    var myY = myPoints.getAttributeNS(null, 'y');
+    // console.log(myY);
+    var myPoint1 = document.getElementById("point1");
+    // console.log(myPoint1);
+    // var myY1 = parseFloat(myPoint1.getAttributeNS(null, 'cy'));
+    // console.log(myY1);
+    // console.log(myPoint1);
+    // myPoint1.setAttributeNS(null, 'cy', myY1 + 10);
+    // console.log(myPoint1);
+
+    // Set up svg manipulation
+    // var b = document.getElementById("mySVGButton");
+    // b.addEventListener("name-of-event", function() {
+    //   var g = document.getElementById("graph");
+    //   console.log("this is an event listener");
+    //   var graphDOM = g.contentDocument;
+    //   var graphElem = graphDOM.getElementById("points");
+    //   graphElem.addEventListener("click", function() {
+    //     console.log("this is a function")
+    //     for (var i = 0; i++; i<=1000) {
+    //       var oldY = parseFloat(element.getAttributeNS(null, "point" + i));
+    //       console.log("oldY" + oldY);
+    //       element.setAttributeNS(null, 'oldY', y);
+    //     };
+    //   }, false);
+    // }, false);
+
+    // Index along the given length calculate the amplitude for each, takes
+    // frequency, length, and distance (delta)
+    function ricker (f, len, dt) {
+      var start = -len/2;
+      var stop = (len-dt)/2;
+      var steps = (stop-start/dt)*2;
+      var myGraph = document.getElementById("svgGraph");
+      var myView = svgGraph.getAttributeNS(null, 'viewBox');
+      var myPoints = document.getElementById("points");
+      myGraph.setAttributeNS(null, "viewBox", `0 0 ${steps} ${steps}`);
+      console.log("start " + start);
+      console.log("stop " + stop);
+      console.log("steps " + steps);
+
+      // get arbitrary x values
+      var t = Array(Math.round(steps)).keys();
+      t = Array.from(t);
+      console.log("x-values " + t);
+
+      // calculate the amplitude for each x using a for-loop
+      for (i = 0; i < Math.round(steps); i++) {
+        // ricker formula
+        y = (1 - (2 * Math.pow(Math.PI, 2) * Math.pow(f, 2) * (Math.sign(t[i]) * Math.pow((start + t[i] * dt), 2)))) * Math.exp((-Math.pow(Math.PI, 2) * Math.pow(f, 2) * (Math.sign(t[i]) * Math.pow((start + t[i] * dt), 2))))
+        // console.log("index " + t[i]);
+        // console.log("x-label " + start + t[i] * dt);
+        // console.log("amplitude " + y);
+
+        // remove any previous circle by this id
+        // define
+        var remove = document.getElementById('point' + i)
+        // bypass if there is no point by that id
+        if(remove != null) {
+          myPoints.removeChild(remove);
+        }
+        // Create a new circle element then append it to the points group and set its attributes
+        var newCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        myPoints.appendChild(newCircle)
+        newCircle.setAttribute("id", "point" + i);
+        newCircle.setAttribute("cx", i);
+        newCircle.setAttribute("cy", -(y * steps - 150));
+        newCircle.setAttribute("r", 1);
+        newCircle.setAttribute("fill", "#000");
+        newCircle.setAttribute("stroke", "#000");
+        // console.log(newCircle);
+      }
+    }
+
+    // Run countLoop function, depending on count value will either give next
+    // or previous png generated from R and stored int ~/resources/ricker/
     var index = 0;
     var loop = 0;
     var count = "up";
 
     function countUp() {
       console.log("You're counting up!")
-      index = index + 1
+      index++
       thisFile = fileName + index + ".png";
       document.getElementById("ricker").src = path + thisFile;
       if (index > 25) {
@@ -34,11 +175,11 @@
     }
 
     function countDown() {
-      index = index - 1
+      index--
       if (index < 1) {
         count = "up";
         countUp();
-        loop = loop + 1;
+        loop++
         return
       }
       console.log("You're counting down!")
@@ -48,9 +189,8 @@
 
     function countLoop() {
       console.log("countLoop() at index" + index)
-
-      if (loop > 10) {
-        document.getElementById("egg").innerHTML = "Man, maybe you should do something more productive with your time."
+      if (loop > 5) {
+        document.getElementById("egg").innerHTML = "Pretty cool, huh?"
       }
       if (count == "up") {
         // console.log(i);
@@ -60,8 +200,8 @@
         countDown();
       }
     }
-
     document.getElementById("myButton").onclick = function() {countLoop()};
+    document.getElementById("mySVGButton").mousedown = function() {ricker(document.getElementById("freq"), document.getElementById("len"), document.getElementById("dt"))};
 
   </script>
 </body>
