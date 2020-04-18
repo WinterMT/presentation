@@ -424,6 +424,15 @@ body {
    background: #002D72;
    font-size: .33em;
  }
+
+ .current-slide-number {
+   bottom: -0.75%;
+   right: 5%;
+   position: absolute;
+   height: 4%;
+   font-size: .33em;
+   z-index: 1000;
+ }
  /*********************************************
   * SUNDRY
   *********************************************/
