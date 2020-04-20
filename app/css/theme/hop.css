@@ -88,6 +88,7 @@ body {
   font-size: 0.4em;
   text-align: left;
   vertical-align: bottom;
+  font-weight: 300;
 }
 
 .reveal h1 {
@@ -716,7 +717,7 @@ body {
   }
 
   .reveal li.de-emphasize {
-    font-size: 80%;
+    font-size: 60%;
   }
   /*
   svg {
