@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513 739">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        font-size: 12px;
+      }
+
+      .cls-1, .cls-6 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-3 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-6, .cls-8 {
+        font-weight: 400;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-8 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-9 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10, .cls-11, .cls-9 {
+        stroke-width: 0.75px;
+      }
+
+      .cls-10 {
+        stroke-dasharray: 12.65 12.65;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 11.45 11.45;
+      }
+
+      .cls-12 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="shapes">
+    <path d="M385.15,9V68H119.85V9h265.3m1-1H118.85V69h267.3V8Z"/>
+    <path d="M385.15,82V141H119.85V82h265.3m1-1H118.85V142h267.3V81Z"/>
+    <path d="M385.15,156v59H119.85V156h265.3m1-1H118.85v61h267.3V155Z"/>
+    <path d="M106.85,101v21H8.15V101h98.7m1-1H7.15v23h100.7V100Z"/>
+    <path d="M106.85,515v21H8.15V515h98.7m1-1H7.15v23h100.7V514Z"/>
+    <path d="M246.78,241v59H8.21V241H246.78m1-1H7.21v61H247.78V240Z"/>
+    <path d="M392.15,333v59H126.85V333h265.3m1-1H125.85v61h267.3V332Z"/>
+    <path d="M392.15,421v59H126.85V421h265.3m1-1H125.85v61h267.3V420Z"/>
+    <path d="M392.15,499V558H126.85V499h265.3m1-1H125.85V559h267.3V498Z"/>
+    <path d="M392.15,580V639H126.85V580h265.3m1-1H125.85V640h267.3V579Z"/>
+    <path d="M504.78,241v59H266.22V241H504.78m1-1H265.22v61H505.78V240Z"/>
+  </g>
+  <g id="words">
+    <text class="cls-1" transform="translate(162.58 42.59)">Recruitment at U<tspan class="cls-2" x="90.03" y="0">V</tspan><tspan x="97.14" y="0">a, JHU and VCU</tspan></text>
+    <text class="cls-1" transform="translate(151.1 100.59)">Informed consent obtained from patient <tspan x="14.33" y="14.4">and decision partner and baseline </tspan><tspan x="42.04" y="28.8">measures administered</tspan></text>
+    <text class="cls-1" transform="translate(215.14 186.59)">Randomization</text>
+    <text class="cls-1" transform="translate(38.66 115.59)">Pre-test</text>
+    <text class="cls-1" transform="translate(35.99 529.59)">Post-test</text>
+    <text class="cls-3" transform="translate(158.48 344.59)"><tspan class="cls-4">T</tspan><tspan x="6.67" y="0">reatment/Follow-up</tspan><tspan class="cls-5" x="117.33" y="0"> </tspan><tspan x="120.22" y="0">Appointments</tspan><tspan class="cls-6"><tspan x="-27.5" y="14.4">Every 3 months EUC- and DI-CPNs collect CPS </tspan><tspan x="-20.43" y="28.8">and HRQ</tspan><tspan class="cls-5" x="29.59" y="28.8">L</tspan><tspan x="35.82" y="28.8" xml:space="preserve"> data; all patient-DP</tspan><tspan class="cls-7" x="141.21" y="28.8">P</tspan><tspan x="149" y="28.8" xml:space="preserve"> pairs receive </tspan><tspan x="-4.01" y="43.2">monthly telephone or in-person contact</tspan></tspan></text>
+    <text class="cls-3" transform="translate(200.81 433.59)"><tspan class="cls-4">T</tspan><tspan x="6.67" y="0">reatment Decisions</tspan><tspan class="cls-6"><tspan x="-60.93" y="14.4">Patient-DP</tspan><tspan class="cls-7" x="-2.9" y="14.4">P</tspan><tspan x="4.89" y="14.4" xml:space="preserve"> pairs make decision 1, 2, or 3. If </tspan><tspan x="-68.04" y="28.8">pairs enter at decision 1 or 2, they may re-apply </tspan><tspan x="-24.69" y="43.2">intervention for decisions 2 or 3</tspan></tspan></text>
+    <text class="cls-1" transform="translate(12.5 676.09)">U<tspan class="cls-2" x="8.67" y="0">V</tspan><tspan x="15.78" y="0">a: University of </tspan><tspan class="cls-7" x="98.47" y="0">V</tspan><tspan x="106.26" y="0">irginia; JHU: Johns Hopkins University; VCU: </tspan><tspan class="cls-7" x="348.33" y="0">V</tspan><tspan x="356.12" y="0">irginia Commonwealth </tspan><tspan x="0" y="14.4">University; EUC: Enhanced Usual Care; DI Decision Intervention; CPN: Community </tspan><tspan x="0" y="28.8">Patient Navigator: RN: Registered Nurse; HRQL: Health Related Quality of Life; DPP: </tspan><tspan x="0" y="43.2">Decision Partner/Proxy; DA: Decision</tspan><tspan class="cls-4" x="198.74" y="43.2"> </tspan><tspan x="201.41" y="43.2">Aid</tspan></text>
+    <text class="cls-3" transform="translate(223 514.59)">End of Study<tspan class="cls-6"><tspan x="-91.09" y="14.4">Repeat baseline measures and study evaluation </tspan><tspan x="-11.02" y="28.8">form administered</tspan></tspan></text>
+    <text class="cls-3" transform="translate(229.57 590.59)">Interviews<tspan class="cls-6"><tspan x="-100.99" y="14.4">30 DI pairs interviewed based on high change on </tspan><tspan x="-88.53" y="28.8">study measurements. Interviews will explore </tspan><tspan x="-65.12" y="43.2">participants experience with the D</tspan><tspan class="cls-4" x="114.98" y="43.2">A</tspan></tspan></text>
+    <text class="cls-3" transform="translate(86.22 259.59)">EUC<tspan class="cls-6" x="25.34" y="0" xml:space="preserve"> (</tspan><tspan class="cls-8" x="32.67" y="0">n </tspan><tspan class="cls-6" x="42.67" y="0">= 79)</tspan><tspan class="cls-6"><tspan x="-61.5" y="14.4">EUC CPN provides standard of care </tspan><tspan x="-17.46" y="28.8">education materials</tspan></tspan></text>
+    <text class="cls-3" transform="translate(356.89 259.59)">DI <tspan class="cls-6" x="15.33" y="0">(</tspan><tspan class="cls-8" x="19.33" y="0">n</tspan><tspan class="cls-6" x="26" y="0" xml:space="preserve"> = 79)</tspan><tspan class="cls-6"><tspan x="-70.33" y="14.4">DI RN-CPN provides EUC + decision </tspan><tspan x="-3.12" y="28.8">intervention</tspan></tspan></text>
+    <g>
+      <polyline class="cls-9" points="255.5 215.97 255.5 224.5 118.5 224.5 118.73 234.64"/>
+      <polygon points="114.97 233.63 118.85 240.03 122.44 233.47 114.97 233.63"/>
+    </g>
+    <g>
+      <polyline class="cls-9" points="255.5 215.97 255.5 224.5 392.5 224.5 392.27 234.64"/>
+      <polygon points="388.56 233.47 392.15 240.03 396.04 233.63 388.56 233.47"/>
+    </g>
+    <g>
+      <polyline class="cls-9" points="255.5 326.12 255.5 316.5 118.5 316.5 118.85 300.98"/>
+      <polygon points="259.24 325.02 255.5 331.5 251.76 325.02 259.24 325.02"/>
+    </g>
+    <polyline class="cls-9" points="255.5 316.5 392.5 316.5 392.15 300.98"/>
+    <g>
+      <line class="cls-9" x1="59.5" y1="306.96" x2="59.5" y2="312.96"/>
+      <line class="cls-10" x1="59.5" y1="325.61" x2="59.5" y2="496.31"/>
+      <line class="cls-9" x1="59.5" y1="502.64" x2="59.5" y2="508.64"/>
+      <polygon points="55.76 507.54 59.5 514.02 63.24 507.54 55.76 507.54"/>
+    </g>
+    <g>
+      <line class="cls-9" x1="59.5" y1="122.98" x2="59.5" y2="128.98"/>
+      <line class="cls-11" x1="59.5" y1="140.43" x2="59.5" y2="226.31"/>
+      <line class="cls-9" x1="59.5" y1="232.03" x2="59.5" y2="238.03"/>
+    </g>
+    <line class="cls-12" x1="8" y1="661" x2="506" y2="661"/>
+  </g>
+</svg>

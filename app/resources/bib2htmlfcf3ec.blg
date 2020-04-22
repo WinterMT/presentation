@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: bib2htmlfcf3ec.aux
+The style file: plain.bst
+Database file #1: ProposalPresentation.bib
+Warning--can't use both author and editor fields in Khani2018
+You've used 18 entries,
+            2118 wiz_defined-function locations,
+            625 strings with 8843 characters,
+and the built_in function-call counts, 7561 in all, are:
+= -- 698
+> -- 531
+< -- 1
++ -- 214
+- -- 192
+* -- 657
+:= -- 1316
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 143
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 206
+empty$ -- 470
+format.name$ -- 192
+if$ -- 1476
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 20
+newline$ -- 93
+num.names$ -- 37
+pop$ -- 136
+preamble$ -- 1
+purify$ -- 129
+quote$ -- 0
+skip$ -- 138
+stack$ -- 0
+substring$ -- 427
+swap$ -- 26
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 64
+warning$ -- 1
+while$ -- 63
+width$ -- 20
+write$ -- 199
+(There was 1 warning)
