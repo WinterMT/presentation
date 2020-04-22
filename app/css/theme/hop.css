@@ -611,6 +611,12 @@ body {
     margin-top: 50px;
   }
 
+  .slide-content-tight {
+    /* text-align: left; */
+    /* padding-left: 1em; */
+    margin: 10px;
+  }
+
   use.treatment-symbol {
     /* stroke: #EF4A81; */
     stroke: #000;
@@ -654,7 +660,24 @@ body {
   }
 
   #para-utility {
-    font-size: .6em;
+    font-size: .5em;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+  }
+
+  #para-choices {
+    font-size: .5em;
+    position: absolute;
+    left: 68%;
+    top: 33%;
+  }
+
+  #para-theory {
+    font-size: .85em;
+    position: absolute;
+    left: 0%;
+    top: 81%;
   }
 
   .svg-left {
@@ -723,6 +746,11 @@ body {
 
   .reveal li.de-emphasize {
     font-size: 60%;
+  }
+
+  .reveal ul,
+  .reveal li.eighty-five {
+    font-size: 85%;
   }
   /*
   svg {
