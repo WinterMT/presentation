@@ -59,7 +59,7 @@ body {
 
 .reveal h1 {
   font-size: 1.8em;
-  text-transform: capitalize;; }
+  text-transform: capitalize; }
 
 .reveal h2 {
   position: absolute;;
@@ -84,8 +84,10 @@ body {
 
 .reveal h6 {
   position: absolute;
-  top: 91.45%;
-  font-size: 0.4em;
+  /* top: 91.45%;
+  font-size: 0.4em; */
+  top: 90.5%;
+  font-size: 0.5em;
   text-align: left;
   vertical-align: bottom;
   font-weight: 300;
@@ -588,10 +590,11 @@ body {
 
   .reveal .outline-indicator {
   /* padding-left: 10px; */
-  font-size: .8em;
+  font-size: 1.1em;
   /* bottom: 0%; */
   color: #CF4520;
   opacity: .8;
+  /* font-weight: 600px; */
   }
 
   .reveal .header-left {
@@ -787,11 +790,15 @@ body {
     top: 33%;
     right: 0%;
     width: 65%;
-    font-size: 125%;
+    /* font-size: 125%; */
   }
 
   .extra-space {
     margin: 2em;
+  }
+
+  .acknowledgment {
+    font-size: .48em;
   }
 
   /*
