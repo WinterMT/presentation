@@ -640,8 +640,14 @@ body {
   }
 
   .column {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
+  }
+
+  .column-right {
+    position: absolute;
+    right: 0%;
+    width: 50%;
   }
 
   /* Clear floats after the columns */
@@ -678,6 +684,13 @@ body {
     position: absolute;
     left: 0%;
     top: 81%;
+  }
+
+  #para-parent {
+    /* font-size: .85em; */
+    position: absolute;
+    left: 0%;
+    top: 92%;
   }
 
   .svg-left {
@@ -748,10 +761,39 @@ body {
     font-size: 60%;
   }
 
-  .reveal ul,
-  .reveal li.eighty-five {
+  .eighty-five {
     font-size: 85%;
   }
+
+  .indent {
+    padding-left: 1em;
+  }
+
+  .seventy-five {
+    font-size: 75%;
+  }
+
+  .reveal div.right-aligned {
+    position: absolute;
+    text-align: right;
+    top: 33%;
+    right: 0%;
+    width: 55%;
+  }
+
+  .reveal div.right-par {
+    position: absolute;
+    text-align: right;
+    top: 33%;
+    right: 0%;
+    width: 65%;
+    font-size: 125%;
+  }
+
+  .extra-space {
+    margin: 2em;
+  }
+
   /*
   svg {
     color: currentColor;
