@@ -6,7 +6,7 @@
 # To see the presentation you need to end the url in "...presentation/app/"
 
 # <b>Contact Us: </b><br>
-# * Email: jhusystems@gmail.com
+# * Email: wthayer1@jhmi.edu
 # <br><br>
 
 # <b>Terms of Use:</b><br>
